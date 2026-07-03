@@ -334,7 +334,7 @@ La aplicación está optimizada para pantallas móviles (360px+) con diseño res
 
 ### Modo Oscuro
 
-- Configurado con TailwindCSS `darkMode: 'class'`
+- Configurado con TailwindCSS v4 via `@custom-variant dark (&:where(.dark, .dark *))` en `index.css`
 - Toggle en Configuración (sección "Apariencia")
 - Preferencia persistida en `localStorage` (`novafin-dark`)
 - Respeta preferencia del sistema si no hay elección previa
